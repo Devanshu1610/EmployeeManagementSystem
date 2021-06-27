@@ -1,0 +1,34 @@
+USE [EmployeeDB]
+GO
+SET IDENTITY_INSERT [dbo].[Employees] ON 
+
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (3, N'Shawna
+', N'HR', N'Delhi', NULL, CAST(N'2011-03-12 00:00:00.0000000' AS DateTime2), 6, 2100000, 100000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (6, N'Nathaniel
+', N'IT', N'Bangakire', NULL, CAST(N'2014-03-09 00:00:00.0000000' AS DateTime2), 0, 1500000, 200000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (8, N'Rajesh
+', N'HR', N'Bangalore', NULL, CAST(N'2011-03-12 00:00:00.0000000' AS DateTime2), 10, 2100000, 100000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (9, N'Elisabeth', N'IT', N'Hyderabad', N'.Net', CAST(N'2020-06-10 00:00:00.0000000' AS DateTime2), 0, 2100000, 100000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (10, N'Estella', N'IT', N'Delhi', N'Fullstack', CAST(N'2011-03-12 00:00:00.0000000' AS DateTime2), 0, 2100000, 100000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (11, N'Lamont', N'IT', N'Bangalore', N'Phython', CAST(N'2017-03-12 00:00:00.0000000' AS DateTime2), 0, 2100000, 100000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (12, N'Melinda', N'Admin', N'Bangalore', NULL, CAST(N'2011-03-12 00:00:00.0000000' AS DateTime2), 0, 2100000, 100000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (1004, N'Bethany', N'IT', N'Hyderabad', N'.Net', CAST(N'2013-06-10 00:00:00.0000000' AS DateTime2), 6, 2400000, 100000, N'Estella')
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (1005, N'Reid', N'IT', N'Delhi', N'Fullstack', CAST(N'2017-03-12 00:00:00.0000000' AS DateTime2), 8, 1800000, 100000, N'Devanshu')
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (1006, N'Mathew', N'IT', N'Bangalore', N'Phython', CAST(N'2018-03-12 00:00:00.0000000' AS DateTime2), 9, 2100000, 100000, N'Devanshu')
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (1007, N'Bernardo', N'Admin', N'Bangalore', NULL, CAST(N'2013-03-12 00:00:00.0000000' AS DateTime2), 7, 2100000, 100000, NULL)
+GO
+INSERT [dbo].[Employees] ([Id], [Name], [Department], [WorkLocation], [TechnologyStack], [DateOfJoining], [Rating], [CTC], [BaseSalary], [ManagerName]) VALUES (1008, N'Tonia', N'Admin', N'Bangalore', NULL, CAST(N'2014-03-12 00:00:00.0000000' AS DateTime2), 0, 1500000, 100000, NULL)
+GO
+SET IDENTITY_INSERT [dbo].[Employees] OFF
+GO
